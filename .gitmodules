@@ -1,0 +1,3 @@
+[submodule "bd-res-signup-scto-plugin"]
+	path = bd-res-signup-scto-plugin
+	url = https://github.com/NooraHealth/bd-res-signup-scto-plugin.git
