@@ -1,3 +1,6 @@
 [submodule "bd-res-signup-scto-plugin"]
 	path = bd-res-signup-scto-plugin
 	url = https://github.com/NooraHealth/bd-res-signup-scto-plugin.git
+[submodule "fd-ticket-scto-plugin"]
+	path = fd-ticket-scto-plugin
+	url = https://github.com/NooraHealth/fd-ticket-scto-plugin.git
