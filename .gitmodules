@@ -4,3 +4,6 @@
 [submodule "fd-ticket-scto-plugin"]
 	path = fd-ticket-scto-plugin
 	url = https://github.com/NooraHealth/fd-ticket-scto-plugin.git
+[submodule "wa-nudge-scto-plugin"]
+	path = wa-nudge-scto-plugin
+	url = https://github.com/NooraHealth/wa-nudge-scto-plugin.git
