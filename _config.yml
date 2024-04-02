@@ -1,3 +1,6 @@
 theme: minima
 title: Custom SCTO Plugins by Noora Health
 description: Here is a curated list of all the custom SurveyCTO Plugins we've built
+
+minima:
+  skin: auto
