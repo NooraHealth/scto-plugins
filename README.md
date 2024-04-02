@@ -1,4 +1,4 @@
-# Custom SCTO Plugins
+# Custom SCTO Plugins by Noora Health
 Here is a curated list of all the custom SurveyCTO Plugins we've built.
 
 ### Freshdesk Plugins
@@ -20,5 +20,7 @@ Now they can seamlessly onboard patients to our RES Whatsapp service directly th
 ## Other Plugins
 
 ### [Whatsapp Template Message Plugin](https://noorahealth.github.io/wa-message-scto-plugin)
+A special SurveyCTO plugin designed for seamlessly sending Whatsapp template message to the users directly through SurveyCTO.
 
 ### [Exotel Plugin](https://noorahealth.github.io/scto-exotel)
+A fork of the original SurveyCTO Exotel plugin developed by JPAL with better error handling and status reporting.
