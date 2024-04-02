@@ -1,4 +1,4 @@
-## Freshdesk Plugin
+## Freshdesk Plugins
 
 ### [Freshdesk Ticket India Plugin](https://github.com/NooraHealth/fd-ticket-scto-plugin/)
 
@@ -6,7 +6,7 @@
 ### [Freshdesk Ticket Bangladesh Plugin](https://github.com/NooraHealth/fd-bd-ticket-scto-plugin)
 
 
-## RES Signup Plugin
+## RES Sign Up Plugins
 ### [Whatsapp India RES Onboarding](https://github.com/NooraHealth/ind-res-signup-scto-plugin)
 
 ### [Whatsapp Bangladesh RES Onboarding](https://github.com/NooraHealth/bd-res-signup-scto-plugin)
