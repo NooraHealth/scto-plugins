@@ -8,3 +8,4 @@ plugins:
 
 minima:
   skin: auto
+  header_pages: ['']
