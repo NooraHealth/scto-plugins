@@ -1,6 +1,10 @@
-theme: minima
+remote_theme: jekyll/minima
+
 title: Custom SCTO Plugins by Noora Health
 description: Here is a curated list of all the custom SurveyCTO Plugins we've built
+
+plugins:
+  - jekyll-remote-theme
 
 minima:
   skin: auto
