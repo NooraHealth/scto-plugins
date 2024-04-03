@@ -1,4 +1,6 @@
-### Freshdesk Plugins
+Here is a curated list of all the custom SurveyCTO Plugins we've built
+
+## Freshdesk Plugins
 A special SurveyCTO plugin designed for teletrainers. Now, they can easily make Freshdesk tickets for patient questions right within SurveyCTO. No extra steps of opening Freshdesk separately needed.
 
 - [Freshdesk Ticket India Plugin](https://noorahealth.github.io/fd-ticket-scto-plugin/)
