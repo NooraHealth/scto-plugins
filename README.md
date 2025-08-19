@@ -5,16 +5,11 @@ A special SurveyCTO plugin designed for teletrainers. Now, they can easily make 
 
 - [Freshdesk Ticket India Plugin](https://noorahealth.github.io/fd-ticket-scto-plugin/)
 
-- [Freshdesk Ticket Bangladesh Plugin](https://noorahealth.github.io/fd-bd-ticket-scto-plugin)
-
-
 ## RES Sign Up Plugins
 A special SurveyCTO plugin designed for teletrainers.
 Now they can seamlessly onboard patients to our RES Whatsapp service directly through SurveyCTO.
 
 - [Whatsapp India RES Onboarding](https://noorahealth.github.io/ind-res-signup-scto-plugin)
-
-- [Whatsapp Bangladesh RES Onboarding](https://noorahealth.github.io/bd-res-signup-scto-plugin)
 
 ## Other Plugins
 
