@@ -10,7 +10,7 @@ baseurl: "/scto-plugins"
 collections:
   plugins:
     output: true
-    permalink: /:name/
+    permalink: /:path/
 
 title: SCTO Plugins
 description: A curated collection of custom SurveyCTO plugins built by Noora Health
