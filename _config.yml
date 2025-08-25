@@ -20,6 +20,14 @@ back_to_top_text: "Back to top"
 # Footer content
 footer_content: "Copyright &copy; 2025 Noora Health."
 
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/NooraHealth/scto-plugins" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
 just_the_docs:
   # Enable search
   search_enabled: true
