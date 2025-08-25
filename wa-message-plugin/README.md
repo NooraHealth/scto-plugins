@@ -23,7 +23,7 @@ This plugin simplifies the process of connecting the [Turn platform](https://www
 
 Download the WhatsApp Message Plugin for SurveyCTO:
 
-[![Download now](extras/download-button.png)](https://github.com/NooraHealth/wa-message-scto-plugin/raw/main/wa-message.fieldplugin.zip)
+[![Download now](../_includes/assets/download-button.png)](https://github.com/NooraHealth/wa-message-scto-plugin/raw/main/wa-message.fieldplugin.zip)
 
 {: .warning }
 **Note**: Ensure the file name doesn't contain any trailing numbers like `(1)`, `(2)` which are automatically added by your system if you already have the plugin downloaded. Remove these and ensure the file name follows the format: `wa-message.fieldplugin.zip`
