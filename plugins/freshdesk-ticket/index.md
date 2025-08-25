@@ -21,7 +21,7 @@ A special SurveyCTO plugin designed for teletrainers. Now, they can easily make 
 
 ## Download
 
-[![Download now](../assets/images/download-button.png)](https://github.com/NooraHealth/fd-ticket-scto-plugin/raw/main/fd-ticket.fieldplugin.zip)
+[![Download now](../../assets/images/download-button.png)](https://github.com/NooraHealth/fd-ticket-scto-plugin/raw/main/fd-ticket.fieldplugin.zip)
 
 {: .warning }
 **Note**: Ensure the file name doesn't contain any trailing numbers like `(1)`, `(2)` which are automatically added by your system if you already have the plugin downloaded. Remove these and ensure the file name follows the format: `fd-ticket.fieldplugin.zip`

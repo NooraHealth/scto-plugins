@@ -17,9 +17,9 @@ These plugins haven't been tested to ensure they work properly on iPhone, and pl
 
 ## Available Plugins
 
-- [Freshdesk Ticket Plugin](fd-ticket-plugin/)
-- [RES Signup Plugin](res-signup-plugin/)
-- [WhatsApp Template Message Plugin](wa-message-plugin/)
+- [Freshdesk Ticket Plugin](plugins/freshdesk-ticket/)
+- [RES Signup Plugin](plugins/res-signup/)
+- [WhatsApp Template Message Plugin](plugins/whatsapp-message/)
 - [Exotel Plugin](https://noorahealth.github.io/scto-exotel)
 
 {: .note }
