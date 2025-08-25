@@ -2,6 +2,7 @@
 title: Freshdesk Ticket Plugin
 ---
 # Freshdesk Ticket Plugin
+{: .no_toc }
 
 ## Table of Contents
 {: .no_toc .text-delta }
