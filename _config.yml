@@ -21,7 +21,7 @@ description: A curated collection of custom SurveyCTO plugins built by Noora Hea
 # Color scheme: "light" (default) or "dark"
 color_scheme: light
 aux_links:
-  "SCTO Plugin on GitHub":
+  "SCTO Plugins on GitHub":
     - https://github.com/noorahealth/scto-plugins
 
 # Back to top link
