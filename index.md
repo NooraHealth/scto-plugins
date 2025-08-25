@@ -8,9 +8,9 @@ A curated collection of custom SurveyCTO plugins designed to enhance teletrainer
 
 ## Why These Plugins?
 
-We created these plugins because we wanted the ability to call different services/applications we built at Noora Health from our SurveyCTO forms. This prevents form users from having to deal with multiple platforms and makes their flow and work smoother by providing integration within the forms.
+We created these plugins because we wanted the ability to call different applications we built at Noora Health from our SurveyCTO forms. This prevents form users from having to deal with multiple platforms and makes their flow and work smoother by providing integration within the forms.
 
-These plugins also allow us to pass any data already collected on the form to our APIs instead of having the form users enter them multiple times in different platforms/applications.
+These plugins also allow us to pass any data already collected on the form to our APIs instead of having the form users enter them multiple times in different platforms.
 
 {: .important }
 These plugins haven't been tested to ensure they work properly on iPhone, and plugin support is limited to Android only.
