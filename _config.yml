@@ -7,6 +7,10 @@ plugins:
   - jekyll-remote-theme
 
 # Just the Docs theme configuration
+aux_links:
+  "SCTO Plugin on GitHub":
+    - https://github.com/noorahealth/scto-plugins
+
 just_the_docs:
   # Color scheme: "light" (default) or "dark"
   color_scheme: dark
@@ -40,9 +44,6 @@ just_the_docs:
       color: red
   
   # Auxiliary links
-  aux_links:
-    "SCTO Plugin on GitHub":
-      - https://github.com/noorahealth/scto-plugins
 
 # Exclude from processing
 exclude:
