@@ -13,7 +13,7 @@ We created these plugins because we wanted the ability to call different service
 These plugins also allow us to pass any data already collected on the form to our APIs instead of having the form users enter them multiple times in different platforms/applications.
 
 {: .important }
-These plugins only work on Android devices and do not work on iPhone devices.
+These plugins haven't been tested to ensure they work properly on iPhone, and plugin support is limited to Android only.
 
 ## Available Plugins
 
