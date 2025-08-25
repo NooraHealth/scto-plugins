@@ -17,6 +17,8 @@ aux_links:
 back_to_top: true
 back_to_top_text: "Back to top"
 
+# Footer content
+footer_content: "Copyright &copy; 2025 Noora Health."
 
 just_the_docs:
   # Enable search
@@ -25,8 +27,6 @@ just_the_docs:
   # Heading anchor links appear on hover over h1-h6 tags
   heading_anchors: true
   
-  # Footer content
-  footer_content: "Copyright &copy; 2024 Noora Health. Distributed by <a href=\"https://github.com/just-the-docs/just-the-docs\">Just the Docs</a>."
   
   # Callouts appearance
   callouts:
