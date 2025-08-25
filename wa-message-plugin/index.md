@@ -21,8 +21,6 @@ This plugin simplifies the process of connecting the [Turn platform](https://www
 
 ## Download
 
-Download the WhatsApp Message Plugin for SurveyCTO:
-
 [![Download now](../assets/images/download-button.png)](https://github.com/NooraHealth/wa-message-scto-plugin/raw/main/wa-message.fieldplugin.zip)
 
 {: .warning }

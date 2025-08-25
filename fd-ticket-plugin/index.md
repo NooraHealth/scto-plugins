@@ -21,8 +21,6 @@ A special SurveyCTO plugin designed for teletrainers. Now, they can easily make 
 
 ## Download
 
-Download the Freshdesk Ticket Plugin for SurveyCTO:
-
 [![Download now](../assets/images/download-button.png)](https://github.com/NooraHealth/fd-ticket-scto-plugin/raw/main/fd-ticket.fieldplugin.zip)
 
 {: .warning }

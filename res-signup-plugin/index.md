@@ -19,8 +19,6 @@ The **RES Signup Plugin** is a field plugin designed to directly onboard users t
 
 ## Download
 
-Download the RES Signup Plugin for SurveyCTO:
-
 [![Download now](../assets/images/download-button.png)](https://github.com/NooraHealth/res-signup-scto-plugin/raw/main/res-signup.fieldplugin.zip)
 
 {: .warning }
