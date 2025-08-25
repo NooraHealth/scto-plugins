@@ -34,6 +34,20 @@ nav_external_links:
     hide_icon: false
     opens_in_new_tab: true
 
+callouts:
+  warning:
+    title: Warning
+    color: yellow
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Tip
+    color: green
+  important:
+    title: Important
+    color: red
+
 just_the_docs:
   # Enable search
   search_enabled: true
@@ -43,19 +57,6 @@ just_the_docs:
   
   
   # Callouts appearance
-  callouts:
-    warning:
-      title: Warning
-      color: yellow
-    note:
-      title: Note
-      color: blue
-    tip:
-      title: Tip
-      color: green
-    important:
-      title: Important
-      color: red
   
   # Auxiliary links
 
