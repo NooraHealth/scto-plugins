@@ -73,7 +73,5 @@ Once the plugin is attached, you can configure it by setting the appearance of t
 
 These values are currently set to placeholder/default values in the test form and need to be configured properly for the plugin to function correctly in production.
 
-## More resources
-
-* **Test form**:
-  [Sample FD Plugin Form](./extras/test-form/fd-plugin-demo.xlsx)
+## Test Form
+[Sample FD Plugin Form](./extras/test-form/fd-plugin-demo.xlsx)
