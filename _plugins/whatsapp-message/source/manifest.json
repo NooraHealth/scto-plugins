@@ -1,0 +1,10 @@
+{
+    "name": "WA RES Nudge",
+    "author": "Udit Mittal",
+    "version": "0.0.1",
+    "supportedFieldTypes": [
+        "text"
+    ],
+    "hideDefaultRequiredMessage": false,
+    "hideDefaultConstraintMessage": false
+}
