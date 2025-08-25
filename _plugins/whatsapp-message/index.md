@@ -1,6 +1,7 @@
 ---
 title: WhatsApp Message Plugin
 collection: plugins
+layout: page
 ---
 # WhatsApp Message Plugin
 {: .no_toc }
