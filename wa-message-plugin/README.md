@@ -1,19 +1,60 @@
 ---
-title: WA Message Plugin
+title: WhatsApp Message Plugin
 ---
 # WhatsApp Message Plugin
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+## Preview
+![](extras/plugin-preview.png)
+
+## Description
 
 This plugin simplifies the process of connecting the [Turn platform](https://www.turn.io/) to your SurveyCTO forms, allowing you to send WhatsApp template messages effortlessly. It enables you to send pre-approved template messages to WhatsApp users, facilitating friendly reminders and promoting interaction with your WhatsApp service. This engagement, in turn, enhances participant engagement and improves data quality.
 
-
-![](extras/plugin-preview.png)
+[Turn](https://www.turn.io/) is a powerful platform that enables organizations to send WhatsApp messages at scale through approved templates and automated workflows.
 
 ## Download
 
-[![Download now](extras/download-button.png)](wa-message.fieldplugin.zip)
+Download the WhatsApp Message Plugin for SurveyCTO:
 
+[![Download now](extras/download-button.png)](https://github.com/NooraHealth/wa-message-scto-plugin/raw/main/wa-message.fieldplugin.zip)
 
-## Required parameters
+{: .warning }
+**Note**: Ensure the file name doesn't contain any trailing numbers like `(1)`, `(2)` which are automatically added by your system if you already have the plugin downloaded. Remove these and ensure the file name follows the format: `wa-message.fieldplugin.zip`
+
+## Testing the Plugin
+
+For general testing steps, please refer to the [Trying Out the Plugins](../trying-out-plugins.md) guide.
+
+## Configuration
+
+### Obtaining API Credentials
+
+Before using this plugin in production, you need to obtain the correct API credentials:
+
+- **`apiToken`**: Follow these steps to access Turn API credentials:
+  1. Navigate to the Settings page
+  2. Click on the 'API & Webhooks' tab
+  3. Scroll down to the 'Authentication Tokens for X Whatsapp Line' section
+  4. Locate and click the 'Create a Token' button
+  5. Set the name for the token as 'SCTO WA Message Plugin'
+  6. Ensure you set an expiry date well into the future to prevent it from expiring during the SurveyCTO survey's active period
+  7. The value you'll obtain here will be used for `apiToken` field
+
+- **`whatsappNamespaceId`**: Contact [Abhishek](https://github.com/abhishek-compro) to obtain the correct WhatsApp Namespace ID for your environment
+
+{: .important }
+**Note**: These values are currently set to placeholder/default values in the test form and need to be configured properly for the plugin to function correctly in production.
+
+### Required Parameters
+
+The following parameters need to be configured in your form:
 
 | Key                   | Value                                                                                                                                                                                                  |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -25,22 +66,20 @@ This plugin simplifies the process of connecting the [Turn platform](https://www
 | `whatsappTemplateId`  | This is the WhatsApp Template Message ID, which will be used for sending a message to the user on WhatsApp.                                                                                            |
 | `language`            | This language code specifies the language in which the template message should be sent.                                                                                                                |
 
-### Turn API and other credentials 
-To access all Turn API credentials, follow these steps:
-
-1. Navigate to the Settings page.
-2. Click on the 'API & Webhooks' tab.
-3. Scroll down to the 'Authentication Tokens for X Whatsapp Line' section.
-4. Locate and click the 'Create a Token' button.
-5. Set the name for the token as 'SCTO WA Nudge Plugin.'
-6. Ensure you set an expiry date well into the future to prevent it from expiring during the SurveyCTO survey's active period.
-7. The value you'll obtain here will be used for `apiToken` field.
-
-## More resources
-
-* **Test form**:
-  [Sample WA Message Plugin Form](./extras/test-form/wa-message-plugin-demo.xlsx)
+## Test Form
+[Sample WA Message Plugin Form](./extras/test-form/wa-message-plugin-demo.xlsx)
 
 ## Developer Notes
 
-**Templates with Variables**: In case you want to use any template with variables in it, you'll need to modify the `createPayload` method in [`script.js`](./source/script.js) and similarly collect variable values from users if needed through a form input. Pass these variables to the plugin definition and obtain them in `script.js` using `getPluginParameter`.
+### Templates with Variables
+
+If you want to use templates with dynamic variables, you'll need to modify the `createPayload` method in [`script.js`](./source/script.js). Here's how to implement this:
+
+1. **Collect Variable Values**: Add form inputs to collect the variable values from users
+2. **Pass to Plugin**: Pass these variables to the plugin definition as additional parameters
+3. **Access in Script**: Use `getPluginParameter` in `script.js` to retrieve the variable values
+4. **Modify Payload**: Update the `createPayload` method to include these variables in the message template
+
+### Phone Number Format
+
+**Important**: Phone numbers must be in international format (e.g., `911234567890`) without any special characters or spaces.
