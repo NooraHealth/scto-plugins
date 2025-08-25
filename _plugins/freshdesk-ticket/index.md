@@ -2,6 +2,7 @@
 title: Freshdesk Ticket Plugin
 collection: plugins
 layout: page
+permalink: /freshdesk-ticket/
 ---
 # Freshdesk Ticket Plugin
 {: .no_toc }
