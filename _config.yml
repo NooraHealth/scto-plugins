@@ -1,4 +1,6 @@
 remote_theme: just-the-docs/just-the-docs
+
+# Jekyll plugins
 plugins:
   - jekyll-sitemap
   - jekyll-remote-theme
@@ -63,6 +65,11 @@ just_the_docs:
   
   # Heading anchor links appear on hover over h1-h6 tags
   heading_anchors: true
+  collections:
+    # Reference the "tests" collection
+    plugins:
+      # Give the collection a name
+      name: Plugins
   
   
   # Callouts appearance
@@ -78,5 +85,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-include:
-  - _plugins
