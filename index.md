@@ -3,23 +3,6 @@ layout: home
 title: Home
 nav_order: 1
 ---
-
-<button class="btn js-toggle-dark-mode"> Change Theme</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Dark Mode';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Light Mode';
-  }
-});
-</script>
-
 A curated collection of custom SurveyCTO plugins designed to enhance teletrainer workflows and improve patient care delivery.
 
 ## Available Plugins
