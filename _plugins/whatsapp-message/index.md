@@ -2,6 +2,7 @@
 title: WhatsApp Message Plugin
 collection: plugins
 layout: page
+permalink: /whatsapp-message/
 ---
 # WhatsApp Message Plugin
 {: .no_toc }

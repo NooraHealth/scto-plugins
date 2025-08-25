@@ -2,6 +2,7 @@
 title: RES Signup Plugin
 collection: plugins
 layout: page
+permalink: /res-signup/
 ---
 # RES Signup Plugin
 {: .no_toc }
