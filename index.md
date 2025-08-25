@@ -4,8 +4,6 @@ title: Home
 nav_order: 1
 ---
 
-# Custom SurveyCTO Plugins by Noora Health
-
 A curated collection of custom SurveyCTO plugins designed to enhance teletrainer workflows and improve patient care delivery.
 
 ## Available Plugins
