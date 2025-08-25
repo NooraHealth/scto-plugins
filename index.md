@@ -18,7 +18,7 @@ A special SurveyCTO plugin designed for teletrainers. Now, they can easily make 
 
 A special SurveyCTO plugin designed for teletrainers. Now they can seamlessly onboard patients to our RES Whatsapp service directly through SurveyCTO.
 
-- [Whatsapp India RES Onboarding](https://noorahealth.github.io/res-signup-scto-plugin)
+- [RES Signup Plugin](res-signup-plugin/README.md)
 
 ### Other Plugins
 

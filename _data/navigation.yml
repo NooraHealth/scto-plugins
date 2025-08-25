@@ -6,6 +6,10 @@
   url: /fd-ticket-plugin/
   icon: ticket
 
+- title: RES Signup Plugin
+  url: /res-signup-plugin/
+  icon: user-plus
+
 - title: External Plugins
   icon: external-link-alt
   children:
