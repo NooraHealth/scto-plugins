@@ -7,23 +7,23 @@ plugins:
   - jekyll-remote-theme
 
 # Just the Docs theme configuration
+# Color scheme: "light" (default) or "dark"
 color_scheme: dark
 aux_links:
   "SCTO Plugin on GitHub":
     - https://github.com/noorahealth/scto-plugins
 
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+
 just_the_docs:
-  # Color scheme: "light" (default) or "dark"
-  
   # Enable search
   search_enabled: true
   
   # Heading anchor links appear on hover over h1-h6 tags
   heading_anchors: true
-  
-  # Back to top link
-  back_to_top: true
-  back_to_top_text: "Back to top"
   
   # Footer content
   footer_content: "Copyright &copy; 2024 Noora Health. Distributed by <a href=\"https://github.com/just-the-docs/just-the-docs\">Just the Docs</a>."
