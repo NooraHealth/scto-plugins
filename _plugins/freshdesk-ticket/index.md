@@ -31,7 +31,7 @@ A special SurveyCTO plugin designed for teletrainers. Now, they can easily make 
 
 ## Testing the Plugin
 
-For general testing steps, please refer to the [Trying Out the Plugins](../trying-out-plugins.md) guide.
+For general testing steps, please refer to the [Trying Out the Plugins](../trying-out-plugins/) guide.
 
 ## Configuration
 

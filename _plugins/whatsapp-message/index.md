@@ -31,7 +31,7 @@ This plugin simplifies the process of connecting the [Turn platform](https://www
 
 ## Testing the Plugin
 
-For general testing steps, please refer to the [Trying Out the Plugins](../trying-out-plugins.md) guide.
+For general testing steps, please refer to the [Trying Out the Plugins](../trying-out-plugins/) guide.
 
 ## Configuration
 

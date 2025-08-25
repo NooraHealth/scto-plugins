@@ -23,4 +23,4 @@ These plugins haven't been tested to ensure they work properly on iPhone, and pl
 - [WhatsApp Template Message Plugin]({{ site.baseurl }}/whatsapp-message/)
 
 {: .note }
-**Want to try out these plugins?** See our [Trying Out the Plugins](trying-out-plugins.md) guide for step-by-step instructions.
+**Want to try out these plugins?** See our [Trying Out the Plugins](trying-out-plugins/) guide for step-by-step instructions.

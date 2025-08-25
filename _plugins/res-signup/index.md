@@ -29,7 +29,7 @@ The **RES Signup Plugin** is a field plugin designed to directly onboard users t
 
 ## Testing the Plugin
 
-For general testing steps, please refer to the [Trying Out the Plugins](../trying-out-plugins.md) guide.
+For general testing steps, please refer to the [Trying Out the Plugins](../trying-out-plugins/) guide.
 
 ## Configuration
 
