@@ -69,7 +69,6 @@ just_the_docs:
     # Reference the "tests" collection
     plugins:
       # Give the collection a name
-      name: Plugins
   
   
   # Callouts appearance

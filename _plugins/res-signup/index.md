@@ -1,8 +1,8 @@
 ---
 title: RES Signup Plugin
-collection: plugins
 layout: page
 permalink: /res-signup/
+nav_order: 2
 ---
 # RES Signup Plugin
 {: .no_toc }
@@ -22,7 +22,7 @@ The **RES Signup Plugin** is a field plugin designed to directly onboard users t
 
 ## Download
 
-[![Download now](../../assets/images/download-button.png)](https://github.com/NooraHealth/res-signup-scto-plugin/raw/main/res-signup.fieldplugin.zip)
+[![Download now](../assets/images/download-button.png)](https://github.com/NooraHealth/res-signup-scto-plugin/raw/main/res-signup.fieldplugin.zip)
 
 {: .warning }
 **Note**: Ensure the file name doesn't contain any trailing numbers like `(1)`, `(2)` which are automatically added by your system if you already have the plugin downloaded. Remove these and ensure the file name follows the format: `res-signup.fieldplugin.zip`

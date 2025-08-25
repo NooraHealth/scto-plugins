@@ -1,8 +1,8 @@
 ---
 title: WhatsApp Message Plugin
-collection: plugins
 layout: page
 permalink: /whatsapp-message/
+nav_order: 3
 ---
 # WhatsApp Message Plugin
 {: .no_toc }
@@ -24,7 +24,7 @@ This plugin simplifies the process of connecting the [Turn platform](https://www
 
 ## Download
 
-[![Download now](../../assets/images/download-button.png)](https://github.com/NooraHealth/wa-message-scto-plugin/raw/main/wa-message.fieldplugin.zip)
+[![Download now](../assets/images/download-button.png)](https://github.com/NooraHealth/wa-message-scto-plugin/raw/main/wa-message.fieldplugin.zip)
 
 {: .warning }
 **Note**: Ensure the file name doesn't contain any trailing numbers like `(1)`, `(2)` which are automatically added by your system if you already have the plugin downloaded. Remove these and ensure the file name follows the format: `wa-message.fieldplugin.zip`
@@ -80,7 +80,3 @@ If you want to use templates with dynamic variables, you'll need to modify the `
 2. **Pass to Plugin**: Pass these variables to the plugin definition as additional parameters
 3. **Access in Script**: Use `getPluginParameter` in `script.js` to retrieve the variable values
 4. **Modify Payload**: Update the `createPayload` method to include these variables in the message template
-
-### Phone Number Format
-
-**Important**: Phone numbers must be in international format (e.g., `911234567890`) without any special characters or spaces.

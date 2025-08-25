@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Trying Out the Plugins
-nav_order: 2
+nav_order: 5
 ---
 
 # Trying Out the Plugins
