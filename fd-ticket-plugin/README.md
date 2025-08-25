@@ -1,4 +1,6 @@
-# Freshdesk Ticket Plugin
+---
+title: Freshdesk Ticket Plugin
+---
 
 ![](extras/plugin-preview.png)
 
