@@ -1,0 +1,10 @@
+{
+	"name": "RES Signup Plugin",
+	"author": "Udit Mittal",
+	"version": "0.0.7",
+	"supportedFieldTypes": [
+		"text"
+	],
+	"hideDefaultRequiredMessage": false,
+	"hideDefaultConstraintMessage": false
+}
