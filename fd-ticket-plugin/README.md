@@ -1,10 +1,11 @@
 ---
 title: Freshdesk Ticket Plugin
 ---
+# Freshdesk Ticket Plugin
 
 ![](extras/plugin-preview.png)
 
-# Description
+## Description
 
 A special SurveyCTO plugin designed for teletrainers. Now, they can easily make Freshdesk tickets for patient questions right within SurveyCTO. No extra steps of opening Freshdesk separately needed.
 

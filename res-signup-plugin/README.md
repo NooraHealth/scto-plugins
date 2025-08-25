@@ -1,6 +1,7 @@
 ---
 title: RES Signup Plugin
 ---
+# RES Signup Plugin
 
 ![](extras/plugin-preview.png)
 
