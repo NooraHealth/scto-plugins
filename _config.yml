@@ -1,5 +1,14 @@
 remote_theme: just-the-docs/just-the-docs
 
+# Base URL for GitHub Pages
+baseurl: "/scto-plugins"
+
+# Collections configuration to handle plugins
+collections:
+  plugins:
+    output: true
+    permalink: /:name/
+
 title: SCTO Plugins
 description: A curated collection of custom SurveyCTO plugins built by Noora Health
 
