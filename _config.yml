@@ -1,6 +1,7 @@
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 # Base URL for GitHub Pages
 baseurl: "/scto-plugins"
@@ -13,9 +14,6 @@ collections:
 
 title: SCTO Plugins
 description: A curated collection of custom SurveyCTO plugins built by Noora Health
-
-plugins:
-  - jekyll-remote-theme
 
 # Just the Docs theme configuration
 # Color scheme: "light" (default) or "dark"
