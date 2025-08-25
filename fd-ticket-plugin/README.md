@@ -1,3 +1,10 @@
+---
+layout: page
+title: Freshdesk Ticket Plugin
+parent: Plugins
+nav_order: 1
+---
+
 # Freshdesk Ticket Plugin
 
 ![](extras/plugin-preview.png)
@@ -43,8 +50,9 @@ Follow the guide at [Working with spreadsheet form definitions](https://support.
 
 - Download the plugin file (`fd-ticket.fieldplugin.zip`) from the download link above
 
-  > **Note**: Ensure the file name doesn't contain any trailing numbers like `(1)`, `(2)` which are automatically added by your system if you already have the plugin downloaded. Remove these and ensure the file name follows the format: `fd-ticket.fieldplugin.zip`
-  >
+  {: .warning }
+  **Note**: Ensure the file name doesn't contain any trailing numbers like `(1)`, `(2)` which are automatically added by your system if you already have the plugin downloaded. Remove these and ensure the file name follows the format: `fd-ticket.fieldplugin.zip`
+
 - Follow the guide at [Using field plug-ins](https://docs.surveycto.com/02-designing-forms/03-advanced-topics/06.using-field-plug-ins.html) to attach the plugin as an attachment to your form
 
 ### 4. Configure the Plugin
@@ -53,7 +61,8 @@ Once the plugin is attached, you can configure it by setting the appearance of t
 
 ### 5. Update Configuration for Production
 
-> **Note**: Before using this form in `production`, you must update the following values in the sample form:
+{: .important }
+**Note**: Before using this form in `production`, you must update the following values in the sample form:
 
 - **`apiUrl`** and **`apiToken`**: Contact Abhishek to obtain the correct API credentials for your environment
 - **`projectId`**: Update this value to match your specific project requirements

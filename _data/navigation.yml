@@ -1,0 +1,18 @@
+- title: Home
+  url: /
+  icon: home
+
+- title: Plugins
+  icon: puzzle-piece
+  children:
+    - title: Freshdesk Ticket Plugin
+      url: /fd-ticket-plugin/
+    - title: RES Sign Up Plugins
+      url: https://noorahealth.github.io/res-signup-scto-plugin
+      external: true
+    - title: Whatsapp Template Message Plugin
+      url: https://noorahealth.github.io/wa-message-scto-plugin
+      external: true
+    - title: Exotel Plugin
+      url: https://noorahealth.github.io/scto-exotel
+      external: true
