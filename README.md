@@ -1,20 +1,32 @@
-Here is a curated list of all the custom SurveyCTO Plugins we've built
+# SCTO Plugins
 
-## Freshdesk Plugins
-A special SurveyCTO plugin designed for teletrainers. Now, they can easily make Freshdesk tickets for patient questions right within SurveyCTO. No extra steps of opening Freshdesk separately needed.
+A curated collection of custom SurveyCTO plugins built by Noora Health to enhance the capabilities of our teletraining platform.
 
-- [Freshdesk Ticket India Plugin](fd-ticket-plugin/README.md)
+## Purpose
 
-## RES Sign Up Plugins
-A special SurveyCTO plugin designed for teletrainers.
-Now they can seamlessly onboard patients to our RES Whatsapp service directly through SurveyCTO.
+This repository serves as a centralized hub for all custom SurveyCTO plugins developed by Noora Health. These plugins extend SurveyCTO's functionality to integrate with various external services and streamline workflows for our teletraining team.
 
-- [Whatsapp India RES Onboarding](https://noorahealth.github.io/res-signup-scto-plugin)
+## Documentation
 
-## Other Plugins
+For detailed documentation, installation guides, and usage instructions for each plugin, please visit our [documentation site](https://noorahealth.github.io/scto-plugins/).
 
-### [Whatsapp Template Message Plugin](https://noorahealth.github.io/wa-message-scto-plugin)
-A special SurveyCTO plugin designed for seamlessly sending Whatsapp template message to the users directly through SurveyCTO.
+The documentation includes:
+- Plugin previews and descriptions
+- Download links for each plugin
+- Configuration guides and API credential setup
+- Testing instructions and sample forms
+- Developer notes and troubleshooting
 
-### [Exotel Plugin](https://noorahealth.github.io/scto-exotel)
-A fork of the original SurveyCTO Exotel plugin developed by JPAL with better error handling and status reporting.
+## Available Plugins
+
+Our plugin collection includes integrations for:
+- **Freshdesk** - Ticket creation for patient queries
+- **RES (Remote Engagement Service)** - WhatsApp onboarding
+- **WhatsApp** - Template message sending
+- **Exotel** - Enhanced call management (maintained in a [separate repository](https://github.com/NooraHealth/scto-exotel) as it's a fork of the original JPAL plugin)
+
+Each plugin is designed to work seamlessly within SurveyCTO forms, eliminating the need for external tools and improving the teletraining workflow.
+
+## Contributing
+
+For questions, issues, or contributions related to these plugins, please contact the Noora Health development team.
