@@ -3,6 +3,13 @@ title: Freshdesk Ticket Plugin
 ---
 # Freshdesk Ticket Plugin
 
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+## Preview
 ![](extras/plugin-preview.png)
 
 ## Description
