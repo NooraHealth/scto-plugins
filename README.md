@@ -1,6 +1,6 @@
 # SCTO Plugins
 
-A curated collection of custom SurveyCTO plugins built by Noora Health to enhance the capabilities of our teletraining platform.
+A curated collection of custom SurveyCTO plugins built by Noora Health to enhance SurveyCTO's capabilities for use by our teletraining team.
 
 ## Purpose
 
