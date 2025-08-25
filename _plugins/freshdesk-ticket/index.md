@@ -1,5 +1,6 @@
 ---
 title: Freshdesk Ticket Plugin
+collection: plugins
 ---
 # Freshdesk Ticket Plugin
 {: .no_toc }
