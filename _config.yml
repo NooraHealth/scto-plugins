@@ -38,6 +38,11 @@ just_the_docs:
     important:
       title: Important
       color: red
+  
+  # Auxiliary links
+  aux_links:
+    "SCTO Plugin on GitHub":
+      - https://github.com/noorahealth/scto-plugins
 
 # Exclude from processing
 exclude:
