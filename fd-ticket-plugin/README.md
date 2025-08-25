@@ -1,3 +1,5 @@
+# Freshdesk Ticket Plugin
+
 ![](extras/plugin-preview.png)
 
 # Description
