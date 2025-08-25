@@ -1,10 +1,3 @@
----
-layout: page
-title: Freshdesk Ticket Plugin
-parent: Plugins
-nav_order: 1
----
-
 # Freshdesk Ticket Plugin
 
 ![](extras/plugin-preview.png)

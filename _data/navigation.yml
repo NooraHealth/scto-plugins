@@ -2,12 +2,14 @@
   url: /
   icon: home
 
-- title: Plugins
-  icon: puzzle-piece
+- title: Freshdesk Ticket Plugin
+  url: /fd-ticket-plugin/
+  icon: ticket
+
+- title: External Plugins
+  icon: external-link-alt
   children:
-    - title: Freshdesk Ticket Plugin
-      url: /fd-ticket-plugin/
-    - title: RES Sign Up Plugins
+    - title: RES Sign Up Plugin
       url: https://noorahealth.github.io/res-signup-scto-plugin
       external: true
     - title: Whatsapp Template Message Plugin

@@ -11,21 +11,18 @@ A curated collection of custom SurveyCTO plugins designed to enhance teletrainer
 ## Available Plugins
 
 ### Freshdesk Plugins
-{: .text-delta }
 
 A special SurveyCTO plugin designed for teletrainers. Now, they can easily make Freshdesk tickets for patient questions right within SurveyCTO. No extra steps of opening Freshdesk separately needed.
 
 - [Freshdesk Ticket India Plugin](fd-ticket-plugin/README.md)
 
 ### RES Sign Up Plugins
-{: .text-delta }
 
 A special SurveyCTO plugin designed for teletrainers. Now they can seamlessly onboard patients to our RES Whatsapp service directly through SurveyCTO.
 
 - [Whatsapp India RES Onboarding](https://noorahealth.github.io/res-signup-scto-plugin)
 
 ### Other Plugins
-{: .text-delta }
 
 #### [Whatsapp Template Message Plugin](https://noorahealth.github.io/wa-message-scto-plugin)
 A special SurveyCTO plugin designed for seamlessly sending Whatsapp template message to the users directly through SurveyCTO.

@@ -1,6 +1,6 @@
 remote_theme: just-the-docs/just-the-docs
 
-title: Custom SCTO Plugins by Noora Health
+title: SCTO Plugins
 description: A curated collection of custom SurveyCTO plugins built by Noora Health
 
 plugins:
@@ -38,22 +38,6 @@ just_the_docs:
     important:
       title: Important
       color: red
-
-# Collections for organizing plugins
-collections:
-  plugins:
-    output: true
-    permalink: /:collection/:name/
-
-# Defaults for plugin pages
-defaults:
-  - scope:
-      path: ""
-      type: "plugins"
-    values:
-      layout: "page"
-      parent: "Plugins"
-      grand_parent: "Documentation"
 
 # Exclude from processing
 exclude:
