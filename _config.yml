@@ -16,7 +16,7 @@ collections:
 
 title: SCTO Plugins
 description: A curated collection of custom SurveyCTO plugins built by Noora Health
-
+favicon_ico: "/assets/images/favicon.ico"
 # Just the Docs theme configuration
 # Color scheme: "light" (default) or "dark"
 color_scheme: light
