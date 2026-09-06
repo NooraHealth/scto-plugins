@@ -11,7 +11,9 @@ var answerState = document.getElementById("answerState");
 
 // References to values stored in the plug-in parameters
 var pPhoneNumber = getPluginParameter('phoneNumber');
-var pDueDate = getPluginParameter('dueDate') || null;
+var pDueDate = getPluginParameter('edd') || getPluginParameter('dueDate') || null;
+var pBabyDob = getPluginParameter('babyDob') || null;
+var pDischargeDate = getPluginParameter('dischargeDate') || null;
 var referenceMobileNumber = getPluginParameter('referenceMobileNumber') || null;
 var state = getPluginParameter('state') || null;
 var pLanguage = getPluginParameter('language');
@@ -178,8 +180,11 @@ function createPayload(data) {
   if (conditionArea.includes("anc") == true && data["expected_date_of_delivery"] != null) {
     output["expected_date_of_delivery"] = formatDate(data["expected_date_of_delivery"])
   }
-  else if (conditionArea.includes("pnc") == true && data["expected_date_of_delivery"] != null) {
-    output["baby_date_of_birth"] = formatDate(data["expected_date_of_delivery"])
+  else if (conditionArea.includes("pnc") == true && data["baby_date_of_birth"] != null) {
+    output["baby_date_of_birth"] = formatDate(data["baby_date_of_birth"])
+  }
+  else if (conditionArea.includes("scanu") == true && data["date_of_discharge"] != null) {
+    output["date_of_discharge"] = formatDate(data["date_of_discharge"])
   }
   return output
 }
@@ -191,6 +196,8 @@ function apiCall() {
     payload = createPayload({
       mobile_numbers: [pPhoneNumber],
       expected_date_of_delivery: pDueDate,
+      baby_date_of_birth: pBabyDob,
+      date_of_discharge: pDischargeDate,
       reference_mobile_number: referenceMobileNumber,
       program: program,
       state: state,
