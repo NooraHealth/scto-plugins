@@ -25,23 +25,6 @@ var countryName = getPluginParameter('country') || null;
 var currentAnswer = fieldProperties.CURRENT_ANSWER;
 
 
-phoneNumber.innerText = pPhoneNumber;
-if (pDueDate === null) {
-  dueDate.parentElement.style.display = 'none';
-}
-else {
-  dueDate.innerText = formatDate(pDueDate);
-}
-
-if (pConditionArea === null) {
-  conditionArea.parentElement.style.display = 'none';
-}
-else {
-  conditionArea.innerText = pConditionArea;
-}
-setCurrentStatus();
-
-
 function formatDate(date) {
   if(date){
     var d = new Date(date),
@@ -54,7 +37,7 @@ function formatDate(date) {
     if (day.length < 2)
       day = '0' + day;
 
-    return [day, month, year].join('-');
+    return [year, month, day].join('-');
   }
   else{
     return null;
@@ -85,7 +68,7 @@ function formatDateTime(date) {
   if (minutes.length < 2)
     minutes = '0' + minutes;
 
-  return [day, month, year].join('-') + ' ' + strTime;
+  return [year, month, day].join('-') + ' ' + strTime;
 }
 
 
@@ -126,12 +109,8 @@ function makeHttpObject() {
 }
 
 function setResult(resultClass, resultText, reason = null) {
-  t1 = result.classList.replace("danger", resultClass);
-  t2 = result.classList.replace("success", resultClass);
-
-  if ((t1 || t2) == false) {
-    result.classList.add(resultClass);
-  }
+  result.classList.remove("danger", "success");
+  result.classList.add(resultClass);
   result.innerText = resultText;
   if (reason != null) {
     reasonDiv.classList.add('reason');
@@ -164,7 +143,7 @@ function setCurrentStatus() {
 
 function createPayload(data) {
   var conditionArea = data["condition_area"] || "anc";
-  output = {
+  var output = {
     "mobile_numbers": data["mobile_numbers"],
     "state": data["state"] || null,
     "program": data["program"] || "rch",
@@ -172,28 +151,28 @@ function createPayload(data) {
     "language": data["language"],
     "call_id": data["call_id"] || "12345",
     "condition_area": conditionArea
-  }
+  };
   if (data["reference_mobile_number"] != null) {
-    output["reference_mobile_number"] = data["reference_mobile_number"]
+    output["reference_mobile_number"] = data["reference_mobile_number"];
   }
 
   if (conditionArea.includes("anc") == true && data["expected_date_of_delivery"] != null) {
-    output["expected_date_of_delivery"] = formatDate(data["expected_date_of_delivery"])
+    output["expected_date_of_delivery"] = formatDate(data["expected_date_of_delivery"]);
   }
   else if (conditionArea.includes("pnc") == true && data["baby_date_of_birth"] != null) {
-    output["baby_date_of_birth"] = formatDate(data["baby_date_of_birth"])
+    output["baby_date_of_birth"] = formatDate(data["baby_date_of_birth"]);
   }
   else if (conditionArea.includes("scanu") == true && data["date_of_discharge"] != null) {
-    output["date_of_discharge"] = formatDate(data["date_of_discharge"])
+    output["date_of_discharge"] = formatDate(data["date_of_discharge"]);
   }
-  return output
+  return output;
 }
 
 
 function apiCall() {
   try {
-    request = makeHttpObject()
-    payload = createPayload({
+    var request = makeHttpObject()
+    var payload = createPayload({
       mobile_numbers: [pPhoneNumber],
       expected_date_of_delivery: pDueDate,
       baby_date_of_birth: pBabyDob,
@@ -242,3 +221,19 @@ function apiCall() {
     setResult("danger", "Failure", error);
   }
 }
+
+phoneNumber.innerText = pPhoneNumber;
+if (pDueDate === null) {
+  dueDate.parentElement.style.display = 'none';
+}
+else {
+  dueDate.innerText = formatDate(pDueDate);
+}
+
+if (pConditionArea === null) {
+  conditionArea.parentElement.style.display = 'none';
+}
+else {
+  conditionArea.innerText = pConditionArea;
+}
+setCurrentStatus();
