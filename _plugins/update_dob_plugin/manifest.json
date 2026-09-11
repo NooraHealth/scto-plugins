@@ -1,0 +1,10 @@
+{
+	"name": "Update Baby DOB",
+	"author": "Deadpool",
+	"version": "3.0.6",
+	"supportedFieldTypes": [
+		"text"
+	],
+	"hideDefaultRequiredMessage": false,
+	"hideDefaultConstraintMessage": false
+}
