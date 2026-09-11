@@ -1,0 +1,10 @@
+{
+	"name": "Update New EDD",
+	"author": "Deadpool",
+	"version": "0.0.2",
+	"supportedFieldTypes": [
+		"text"
+	],
+	"hideDefaultRequiredMessage": false,
+	"hideDefaultConstraintMessage": false
+}
